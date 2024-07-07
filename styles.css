@@ -1,0 +1,73 @@
+/* Basic styling for the body */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #87CEEB; /* Sky blue background */
+    margin: 0;
+    padding: 20px;
+}
+
+/* Styling for the figure element */
+figure {
+    margin: 0 auto; /* Center the figure horizontally */
+    width: 80%; /* Set the width of the figure */
+}
+
+/* Styling for the featured image */
+#featured {
+    width: 100%; /* Make the featured image fill its container */
+    max-width: 1200px; /* Limit maximum width of the featured image */
+    border: 5px solid #fff; /* White border around the featured image */
+    margin-bottom: 10px; /* Add space below the featured image */
+}
+
+/* Styling for the thumbnails container */
+#thumbnails {
+    list-style: disc; /* Use default list style with bullet points */
+    padding: 0; /* Remove default padding */
+    display: block; /* Use block layout for vertical alignment */
+    margin-top: 20px; /* Add margin above thumbnails */
+    margin-left: 20px; /* Add left margin for bullet points */
+    text-align: left; /* Align thumbnails to the left */
+}
+
+/* Styling for each thumbnail list item */
+#thumbnails li {
+    margin: 10px 0; /* Add space around each thumbnail */
+}
+
+/* Styling for each thumbnail image */
+#thumbnails img {
+    width: 150px; /* Set width of thumbnails */
+    height: 100px; /* Set height of thumbnails */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    border: 2px solid transparent; /* Add transparent border around thumbnails */
+    filter: grayscale(100%); /* Apply grayscale effect to thumbnails */
+}
+
+/* Styling for hovered and active thumbnails */
+#thumbnails img:hover,
+#thumbnails img.active {
+    border-color: #fff; /* White border on hover and for active thumbnails */
+    filter: none; /* Remove grayscale effect on hover and for active thumbnails */
+}
+
+/* Center the h1 element at the top */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Center the figcaption and paragraph text */
+figcaption {
+    text-align: center;
+    font-size: 1.2rem; /* Example font size */
+    color: #000; /* Black text color */
+    margin-top: 10px; /* Example margin top */
+    font-weight: bold; /* Make text bold */
+}
+
+/* Ensure the figcaption and paragraph text are properly centered */
+figcaption p {
+    margin: 0;
+}
